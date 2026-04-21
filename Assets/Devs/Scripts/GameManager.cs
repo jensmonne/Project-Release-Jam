@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -43,8 +44,20 @@ public class GameManager : MonoBehaviour
         //Pick random map or choose map
         //SpawnPlayers
         //Start item spawn Cycle
+        StartItemSpawnCycle();
         //Start round timer
         //Countdown for round to start
+    }
+
+    private void StartItemSpawnCycle()
+    {
+        StartCoroutine(SpawnItemDelay());
+        // Logic to spawn items at intervals can be added here
+    }
+
+    private IEnumerator SpawnItemDelay()
+    {
+        yield return new WaitForSeconds(ItemSpawnInterval);
     }
 
     public void EndRound()
