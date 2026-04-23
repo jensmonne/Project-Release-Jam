@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject CharachterSelectCursor;
     private GameObject CharachterMoveCursor;
 
+    public bool hasItem = false;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -84,7 +86,7 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Gun"))
+        if (other.CompareTag("Gun") && !hasItem)
         {
             Debug.Log("Player picked up a gun!");
 
@@ -95,7 +97,7 @@ public class Player : MonoBehaviour
             gunAimer.EnableGun();
         }
 
-        if (other.CompareTag("Hamer"))
+        if (other.CompareTag("Hamer") && !hasItem)
         {
             Debug.Log("Player picked up a hammer!");
 
