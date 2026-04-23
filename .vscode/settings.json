@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "fientastish.slnx",
+    "dotnet.defaultSolution": "fientastisch.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
