@@ -1,13 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
-using System;
 
 public class Gun_Aimer : MonoBehaviour
 {
     [SerializeField] private GameObject GunPrefab;
     [SerializeField] private GameObject BulletPrefab;
-    [SerializeField] private Transform gunSpawn;
+    [SerializeField] private Transform itemSpawn;
     [SerializeField] private TMP_Text BulletCountText;
 
     [SerializeField] private int Bullets = 10;
@@ -18,9 +17,12 @@ public class Gun_Aimer : MonoBehaviour
     private bool hasGun = false;
     private Transform BulletSpawnPoint;
     private ParticleSystem Effect;
+    private Player player;
 
     void Start()
     {
+        player = GetComponent<Player>();
+
         currentBullets = Bullets;
         UpdateBulletCountText();
 
@@ -44,7 +46,7 @@ public class Gun_Aimer : MonoBehaviour
     //let gun prefab appear
     public void EnableGun()
     {
-        currentGun = Instantiate(GunPrefab, gunSpawn.position, gunSpawn.rotation, transform);
+        currentGun = Instantiate(GunPrefab, itemSpawn.position, itemSpawn.rotation, transform);
 
         BulletSpawnPoint = currentGun.transform.Find("BulletSpawn");
 
@@ -54,6 +56,8 @@ public class Gun_Aimer : MonoBehaviour
         Effect = currentGun.GetComponentInChildren<ParticleSystem>();
 
         hasGun = true;
+
+        player.hasItem = true;
     }
 
     //Gun rotation to aim 
@@ -100,6 +104,7 @@ public class Gun_Aimer : MonoBehaviour
             Destroy(currentGun);
             hasGun = false;
             BulletCountText.gameObject.SetActive(false);
+            player.hasItem = false;
         }
     }
 }
