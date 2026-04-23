@@ -25,17 +25,18 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (GameManager.Instance.isRoundActive)
-        {
-            Vector2 move = new Vector2(moveInput.x, 0f);
-            rb.linearVelocity = new Vector2(move.x * speed, rb.linearVelocity.y);
-        }
+        //if (GameManager.Instance.isRoundActive)
+        //{
 
-        if (!GameManager.Instance.isRoundActive)
-        {
-            Vector2 move = new Vector2(moveInput.x, moveInput.y);
-            CharachterMoveCursor.transform.Translate(move * (speed * 1.5f) * Time.fixedDeltaTime);
-        }
+        //}
+        Vector2 move = new Vector2(moveInput.x, 0f);
+        rb.linearVelocity = new Vector2(move.x * speed, rb.linearVelocity.y);
+
+        //if (!GameManager.Instance.isRoundActive)
+        //{
+        //    Vector2 move = new Vector2(moveInput.x, moveInput.y);
+        //    CharachterMoveCursor.transform.Translate(move * (speed * 1.5f) * Time.fixedDeltaTime);
+        //}
 
 
 
