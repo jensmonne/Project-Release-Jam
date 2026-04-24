@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: cb626012703bc8049baa9b9664ab5708
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 594258954221892555
+    second: GameJamUISheet_0
+  - first:
+      213: -3067127636652634315
+    second: GameJamUISheet_1
+  - first:
+      213: 5998212122739266129
+    second: GameJamUISheet_2
+  - first:
+      213: 4066197589419652755
+    second: GameJamUISheet_3
+  - first:
+      213: -4119435624892148196
+    second: GameJamUISheet_4
+  - first:
+      213: 1707830107239444957
+    second: GameJamUISheet_5
+  - first:
+      213: 5600206201735395144
+    second: GameJamUISheet_6
+  - first:
+      213: -6507405333599422232
+    second: GameJamUISheet_7
+  - first:
+      213: -5190199057141774308
+    second: GameJamUISheet_8
+  - first:
+      213: 2390249785563565808
+    second: GameJamUISheet_9
+  - first:
+      213: 3219282576575413052
+    second: GameJamUISheet_10
+  - first:
+      213: 4584150952093497303
+    second: GameJamUISheet_11
+  - first:
+      213: 3079793601618103375
+    second: GameJamUISheet_12
+  - first:
+      213: -6092715632767622485
+    second: GameJamUISheet_13
+  - first:
+      213: -2006623778017742552
+    second: GameJamUISheet_14
+  - first:
+      213: -4469525711592326637
+    second: GameJamUISheet_15
+  - first:
+      213: -2291506396888219571
+    second: GameJamUISheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameJamUISheet_0
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1480
+        width: 1904
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3bdfece5b3f3800800000000000000
+      internalID: 594258954221892555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamUISheet_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 913
+        width: 236
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8f259a35d01b5a0800000000000000
+      internalID: -6507405333599422232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamUISheet_8
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 987
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c184f75d475b8f7b0800000000000000
+      internalID: -5190199057141774308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamUISheet_9
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 772
+        width: 897
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe48f0148fdb2120800000000000000
+      internalID: 2390249785563565808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamUISheet_10
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 738
+        width: 673
+        height: 670
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bb16862703dac20800000000000000
+      internalID: 3219282576575413052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamUISheet_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 791
+        width: 45
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d73d48c00d2e9f30800000000000000
+      internalID: 4584150952093497303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamUISheet_12
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 493
+        width: 344
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cc7f596ff9dba20800000000000000
+      internalID: 3079793601618103375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamUISheet_13
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 512
+        width: 162
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2aa6f9963527ba0800000000000000
+      internalID: -6092715632767622485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamUISheet_14
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 159
+        width: 471
+        height: 492
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82176613e4a0724e0800000000000000
+      internalID: -2006623778017742552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamUISheet_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 159
+        width: 756
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a701ebb0e09f1c0800000000000000
+      internalID: -4469525711592326637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamUISheet_16
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 321
+        width: 317
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4041fca21fe230e0800000000000000
+      internalID: -2291506396888219571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 83784ea0ce31d9540b2ba78ef755ebda
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GameJamUISheet_0: 594258954221892555
+      GameJamUISheet_1: -3067127636652634315
+      GameJamUISheet_10: 3219282576575413052
+      GameJamUISheet_11: 4584150952093497303
+      GameJamUISheet_12: 3079793601618103375
+      GameJamUISheet_13: -6092715632767622485
+      GameJamUISheet_14: -2006623778017742552
+      GameJamUISheet_15: -4469525711592326637
+      GameJamUISheet_16: -2291506396888219571
+      GameJamUISheet_2: 5998212122739266129
+      GameJamUISheet_3: 4066197589419652755
+      GameJamUISheet_4: -4119435624892148196
+      GameJamUISheet_5: 1707830107239444957
+      GameJamUISheet_6: 5600206201735395144
+      GameJamUISheet_7: -6507405333599422232
+      GameJamUISheet_8: -5190199057141774308
+      GameJamUISheet_9: 2390249785563565808
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
